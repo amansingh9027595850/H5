@@ -1,0 +1,111 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+  }
+  .logo{
+    width: 100px;
+    height: 100px;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    filter: brightness(1); 
+  }
+  
+  body, html {
+    height: 100%;
+  }
+  
+  .background {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    z-index: -1;
+    transition: background-image 1s ease-in-out;
+        filter: brightness(.6); 
+      }
+  
+  
+  header {
+    background: #3e3838;
+    color: white;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0.5; 
+    height:15%;
+
+
+  }
+  
+  .logo {
+    font-size: 30px;
+    font-weight: bold;
+   
+  }
+  nav{
+    filter: brightness(.5);
+    filter: brightness(2.0); 
+  }
+  
+  nav a {
+    color: rgb(192, 240, 0);
+    margin: 0 15px;
+    text-decoration: none;
+    font-size: 18px;
+  }
+  
+  .right-buttons {
+    position: absolute;
+    bottom: 20px;
+    right: 20px;
+  }
+  
+  .right-buttons button {
+    margin-left: 10px;
+    padding: 10px 15px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .earn-point {
+    background-color: #28a745;
+    color: white;
+  }
+  
+  .signup {
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .hero-image {
+    width: 100%;
+    max-height: 450px;
+    object-fit: cover;
+    display: block;
+  }
+  
+  .content {
+    width: 700px;
+    height: 200px;
+    font-size: 20px;
+    color: rgba(255, 255, 255, 0.821);
+    padding: 40px 50px;
+    max-width: 800px;
+    text-align: center;
+    /* justify-content: center; */
+    /* display: flex; */
+    position: relative;
+    top: 210px; 
+    left: 400px;
+    
+  }

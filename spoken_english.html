@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Spoken English Course</title>
+  <style>
+    body {
+      font-family: 'Poppins', sans-serif;
+      margin: 0;
+      background-color: #f4f6fa;
+      color: #333;
+    }
+
+    header {
+      background-color: #5a8dee;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 36px;
+      margin-bottom: 10px;
+    }
+
+    header p {
+      font-size: 18px;
+      max-width: 800px;
+      margin: auto;
+    }
+
+    .video-section {
+      padding: 40px 20px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .video-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+      gap: 25px;
+    }
+
+    .video-card {
+      background: white;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+      overflow: hidden;
+      transition: transform 0.3s;
+    }
+
+    .video-card:hover {
+      transform: translateY(-5px);
+    }
+
+    .video-card iframe {
+      width: 100%;
+      height: 200px;
+      border: none;
+    }
+
+    .video-info {
+      padding: 15px 20px;
+    }
+
+    .video-info h3 {
+      margin-bottom: 10px;
+      font-size: 18px;
+      color: #222;
+    }
+
+    .video-info p {
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Spoken English Course</h1>
+    <p>Learn HTML, CSS, JavaScript and build modern websites from scratch.</p> <!-- Modify this line as needed -->
+  </header>
+
+  <div class="video-section">
+    <div class="video-grid">
+
+      <!-- Video 1 -->
+      <div class="video-card">
+        <iframe src="https://www.youtube.com/embed/cM1XW8HOV6w?si=KbgWMSiBsQtYSbFy" allowfullscreen></iframe>
+        <div class="video-info">
+          <h3>Basic English Conversation</h3>
+          <p>Learn how to introduce yourself and engage in simple conversations.</p>
+        </div>
+      </div>
+
+      <!-- Video 2 -->
+      <div class="video-card">
+        <iframe src="https://www.youtube.com/embed/E1vep4gWqdg?si=0BiysUjYIS5Jz5Vn" allowfullscreen></iframe>
+        <div class="video-info">
+          <h3>Common Daily Phrases</h3>
+          <p>Master commonly used English phrases for everyday use.</p>
+        </div>
+      </div>
+
+      <!-- Video 3 -->
+      <div class="video-card">
+        <iframe src="https://www.youtube.com/embed/3NMXtItuwtU?si=V8HWVy1r4jAOLDHE" allowfullscreen></iframe>
+        <div class="video-info">
+          <h3>Fluency Practice</h3>
+          <p>Improve your fluency with guided spoken English practice sessions.</p>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+</body>
+</html>

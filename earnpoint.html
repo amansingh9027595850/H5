@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Earn Points - Open Study</title>
+  <link rel="stylesheet" href="earnpoint.css">
+</head>
+<body>
+  <header>
+    <h1>Earn Points 🎯</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="course.html">Courses</a>
+      <a href="help.html">Help</a>
+      <a href="contact.html">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="points-section">
+      <h2>How to Earn Points</h2>
+      <ul>
+        <li>✅ Complete a course – <strong>50 Points</strong></li>
+        <li>📝 Ask a question – <strong>10 Points</strong></li>
+        <li>📚 Answer a question – <strong>20 Points</strong></li>
+        <li>👥 Invite a friend – <strong>30 Points</strong></li>
+      </ul>
+
+      <div class="progress-box">
+        <label for="pointsProgress">Your Progress:</label>
+        <progress id="pointsProgress" value="70" max="100"></progress>
+        <span id="pointsValue">70 / 100 Points</span>
+      </div>
+
+      <button onclick="claimReward()">Claim Reward</button>
+    </section>
+  </main>
+
+  <script src="earnpoint.js"></script>
+</body>
+</html>

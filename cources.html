@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Course Catalog</title>
+  <style>
+    * {
+      box-sizing: border-box;
+      padding: 0;
+      margin: 0;
+      font-family: 'Poppins', sans-serif;
+    }
+
+    body {
+      background: #dddee2;
+      padding: 40px 20px;
+    }
+
+    h1 {
+      text-align: center;
+      margin-bottom: 30px;
+      color: #333;
+    }
+
+    .courses {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+      gap: 25px;
+      max-width: 1200px;
+      margin: auto;
+    }
+
+    .card {
+      background: #fff;
+      border-radius: 10px;
+      overflow: hidden;
+      position: relative;
+      box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+      transition: transform 0.3s;
+      text-decoration: none;
+      color: inherit;
+    }
+
+    .card:hover {
+      transform: translateY(-5px);
+    }
+
+    .price-tag {
+      position: absolute;
+      top: 15px;
+      right: 15px;
+      background-color: #007bff;
+      color: #fff;
+      padding: 5px 12px;
+      font-size: 14px;
+      border-radius: 6px;
+      font-weight: 600;
+    }
+
+    .card img {
+      width: 100%;
+      height: 180px;
+      object-fit: cover;
+    }
+
+    .card-content {
+      padding: 20px;
+    }
+
+    .card-content h3 {
+      margin-bottom: 10px;
+      font-size: 20px;
+      color: #222;
+    }
+
+    .card-content p {
+      font-size: 14px;
+      color: #555;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>Our Courses</h1>
+  <div class="courses">
+    
+    <!-- ✅ Working clickable card -->
+
+
+    <a href="web_development.html" class="card">
+      <div class="price-tag">$49</div>
+      <img src="course1.webp" alt="Web Development">
+      <div class="card-content">
+        <h3>Web Development</h3>
+        <p>Learn HTML, CSS, JavaScript and build modern websites from scratch.</p>
+      </div>
+    </a>
+
+    <a href="python_programming.html" class="card">
+        <div class="price-tag">$49</div>
+        <img src="course2.jpg" alt="Web Development">
+        <div class="card-content">
+          <h3>Python Programming</h3>
+          <p>Master Python for data science, automation, and more.</p>
+        </div>
+      </a>
+
+
+
+
+
+
+    <a href="spoken_english.html" class="card">
+        <div class="price-tag">Free</div>
+        <img src="course3.jpg" alt="Spoken English">
+        <div class="card-content">
+          <h3>Spoken English</h3>
+          <p>Boost your communication and fluency for day-to-day conversations.</p>
+        </div>
+      </a>
+
+
+
+    <a href="daa.html" class="card">
+        <div class="price-tag">$39</div>
+        <img src="course4.jpg" alt="DSA in C++">
+        <div class="card-content">
+          <h3>DSA in C++</h3>
+          <p>Crack coding interviews with data structures and algorithms mastery.</p>
+        </div>
+      </a>
+
+  </div>
+
+</body>
+</html>
+
+  
